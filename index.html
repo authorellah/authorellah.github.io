@@ -15,8 +15,8 @@
     }
 
     header {
-      background-color: #f3e8e6;
-      padding: 3rem 1rem;
+      background: linear-gradient(135deg, #f9e6f0, #f3e8e6);
+      padding: 4rem 1rem;
       text-align: center;
     }
 
@@ -38,6 +38,7 @@
       text-align: center;
       position: sticky;
       top: 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
     }
 
     nav a {
@@ -70,6 +71,13 @@
       padding: 1.5rem;
       border-radius: 12px;
       box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+
+    .book img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-bottom: 1rem;
     }
 
     .book h3 {
@@ -77,22 +85,27 @@
       color: #6b4e4e;
     }
 
+    .button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.8rem 1.6rem;
+      background-color: #f7b1b1;
+      color: white;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .button:hover {
+      background-color: #d67a7a;
+    }
+
     footer {
       background-color: #f3e8e6;
       text-align: center;
       padding: 2rem 1rem;
       font-size: 0.9rem;
-    }
-
-    .button {
-      display: inline-block;
-      margin-top: 1rem;
-      padding: 0.6rem 1.4rem;
-      background-color: #d6a7a7;
-      color: white;
-      border-radius: 25px;
-      text-decoration: none;
-      font-weight: bold;
     }
   </style>
 </head>
@@ -128,6 +141,7 @@
 
   <div class="books">
     <div class="book">
+      <img src="silence-collided.jpg" alt="Silence Collided Book Cover" />
       <h3>Silence Collided</h3>
       <p>
         Published: December 2025  
